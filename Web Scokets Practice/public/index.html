@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sockets Practice</title>
+</head>
+<script src='/socket.io/socket.io.js' > </script> 
+<body>
+    Hola!<br /> Welcome to chat buddy <br />
+    <input type="text" id="msg" placeholder="Enter your message" />
+    <input type="button" id="sendBtn" value="send"/>
+<script>
+    
+    const socket = io()
+    const btn = document.getElementById('sendBtn')
+    const msg = document.getElementById('msg')
+
+    btn.addEventListener('click',(e) => {
+        msgValue = msg.value
+        console.log(msgValue)
+        socket.emit('user-message',msgValue)
+    })
+</script>
+</body>
+</html>
