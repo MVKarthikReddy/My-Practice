@@ -10,8 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@canburaks/text-align-editorjs": "^1.1.0",
+    "@editorjs/checklist": "^1.6.0",
+    "@editorjs/delimiter": "^1.4.2",
+    "@editorjs/editorjs": "^2.30.5",
+    "@editorjs/header": "^2.8.7",
+    "@editorjs/image": "^2.9.3",
+    "@editorjs/link": "^2.6.2",
+    "@editorjs/list": "^1.10.0",
+    "@editorjs/paragraph": "^2.11.6",
+    "editorjs-text-alignment-blocktune": "^1.0.3",
+    "install": "^0.13.0",
+    "npm": "^10.8.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-editor-js": "^2.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
