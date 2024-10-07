@@ -1,5 +1,6 @@
 {
   "name": "web-scokets-practice",
+  "author": "karthik",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
